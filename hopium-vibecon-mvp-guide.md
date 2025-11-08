@@ -31,12 +31,12 @@ We're not building therapy - we're building a performance tool that unlocks foun
 - Stored in emergent.sh state
 - This is what makes the voice agent personalized to YOU
 
-#### 2. Voice Call with VAPI (6-8 hours build)
-- Integration with VAPI for voice interface
+#### 2. Voice Call with Hume.ai (6-8 hours build)
+- Integration with Hume.ai for voice interface
 - Custom prompt that:
   - References user's profile (goals + anxiety)
   - Uses "Hopium agent" persona: warm, founder-focused, reframing negative → hope
-  - Structured to ask questions, listen deeply, then reflect hope back
+  - Structured to reframe the thoughts of the
   - Avoids generic therapy-speak - uses founder language (YC-style)
 - Call initiated from simple "Talk to Hopium" button
 - Duration: 5-10 minute conversations
@@ -109,8 +109,8 @@ Biggest anxiety: What if my demo flops?
 - Tailwind CSS for quick styling
 
 ### Backend/Integrations
-- **VAPI** for voice interface (you'll need VAPI API key)
-- **Anthropic Claude API** for the reframing prompt (configured via VAPI)
+- **Hume.ai** for voice interface (you'll need Hume.ai API key)
+- **Hume.ai EVI (Empathic Voice Interface)** for emotion-aware conversations
 - **emergent.sh state management** for:
   - User profile data
   - Call history (timestamp, duration, emotion rating)
@@ -118,29 +118,7 @@ Biggest anxiety: What if my demo flops?
 
 ### Custom Prompt for Voice Agent
 
-```
-You are Hopium, an AI companion for founders who need to maintain unshakeable self-belief while building world-changing companies.
-
-User Context:
-- Goals: [USER_GOALS]
-- Current Challenge: [USER_ANXIETY]
-
-Your role:
-1. Listen deeply to what they're worried about
-2. Acknowledge the real difficulty (don't dismiss or minimize)
-3. Reframe their thoughts toward hope, agency, and their existing strengths
-4. Reference their specific goals to remind them why they started
-5. Use founder language - not therapy speak. Think Y Combinator, not counselor.
-6. Be concise but warm. Think coach, not clinician.
-
-Conversation guidelines:
-- Keep responses concise (30-60 seconds each)
-- Ask clarifying questions to understand deeper
-- Help them see the worry differently - same facts, new frame
-- End with actionable hope (what they can do right now)
-
-Tone: Confident, warm, direct, optimistic without being toxic positivity
-```
+#TODO: Workshop voice prompt configuration for Hume.ai EVI
 
 ---
 
@@ -150,7 +128,7 @@ Tone: Confident, warm, direct, optimistic without being toxic positivity
 - **Morning** (2 hours): Attend opening session + network with sponsors
 - **Midday** (3 hours): Build profile setup + basic UI shell
 - **Afternoon** (2 hours): Workshop or sponsor demos (Amazon/Emergent/Anthropic)
-- **Evening** (4 hours): VAPI integration + voice prompt engineering
+- **Evening** (4 hours): Hume.ai integration + voice prompt engineering
 
 ### Day 2 (Sunday)
 - **Morning** (3 hours): Dashboard + streak logic + emotion tracking
@@ -172,7 +150,7 @@ Tone: Confident, warm, direct, optimistic without being toxic positivity
 5. **Timely market need** - Founder mental health is a known crisis, this is a fresh angle
 6. **Demo-able** - Live vulnerability in the demo creates emotional connection with judges
 7. **Network effects potential** - "Share your streak" feature could drive viral growth
-8. **AI-native** - Uses cutting-edge voice AI (sponsors will love seeing VAPI/Claude in action)
+8. **AI-native** - Uses cutting-edge voice AI (sponsors will love seeing Hume.ai EVI in action)
 
 ---
 
