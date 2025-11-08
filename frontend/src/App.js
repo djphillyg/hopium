@@ -6,7 +6,7 @@ const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8001'
 
 function App() {
   const [step, setStep] = useState('welcome'); // welcome, profile, main
-  const [userId, setUserId] = useState(null);
+  const [, setUserId] = useState(null);
   const [profile, setProfile] = useState({
     name: '',
     goals: ['', '', ''],
