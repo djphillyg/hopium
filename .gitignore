@@ -1,0 +1,28 @@
+# Environment files
+*.env
+*.env.*
+
+# Python virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Docker
+docker-compose.override.yml
+
+# MongoDB data (if running locally)
+data/
+mongo-data/
+
+# Node modules
+frontend/node_modules/
+backend/node_modules/
+-e 
+# Environment files
+*.env
+*.env.*
+-e 
+# Environment files
+*.env
+*.env.*
