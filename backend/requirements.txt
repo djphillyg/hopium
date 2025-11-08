@@ -1,7 +1,8 @@
+cors==1.0.1
 fastapi==0.104.1
-uvicorn==0.24.0
+fastapi_cors==0.0.6
+pydantic==2.12.4
+pydantic_core==2.41.5
 pymongo==4.6.0
 python-dotenv==1.0.0
-pydantic==2.5.0
-cors==1.0.1
-fastapi-cors==0.0.6
+uvicorn==0.24.0
