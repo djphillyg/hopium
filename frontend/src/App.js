@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8001';
+// Use empty string for relative URLs in production/preview (Kubernetes ingress handles routing)
+// Only use localhost:8001 if explicitly set for local development
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || '';
 
 function App() {
   const [step, setStep] = useState('welcome'); // welcome, profile, main
