@@ -156,7 +156,7 @@ Biggest anxiety: What if my demo flops?
 
 ## Risks & Mitigations
 
-### Risk: VAPI integration takes longer than expected
+### Risk: Hume.ai integration takes longer than expected
 **Mitigation:** Build text-based chat version first as fallback, upgrade to voice if time permits. Text still demonstrates the reframing concept.
 
 ### Risk: Voice demo fails live (network/tech issues)
@@ -232,7 +232,7 @@ If this gets traction, here's how it could scale:
 ## Resources & Next Steps
 
 ### Before Vibecon
-- [ ] Sign up for VAPI account and get API key
+- [ ] Sign up for Hume.ai account and get API key
 - [ ] Familiarize yourself with emergent.sh documentation
 - [ ] Draft your profile (be the first user - eat your own dog food)
 - [ ] Practice the demo script out loud
@@ -240,7 +240,7 @@ If this gets traction, here's how it could scale:
 
 ### At Vibecon
 - [ ] Network with Anthropic/Emergent sponsors (they're your ideal partners)
-- [ ] Test VAPI integration early (don't wait until Sunday evening)
+- [ ] Test Hume.ai integration early (don't wait until Sunday evening)
 - [ ] Get feedback from other builders throughout (iterate fast)
 - [ ] Record your demo for social proof later
 
