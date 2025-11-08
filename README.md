@@ -88,8 +88,9 @@ HUME_API_KEY=CHnsSO6zKUTXHl0AVJpmZLJaRfht8lW2qaymAGJdRcopdiAM
 
 ### Frontend (.env)
 ```
-REACT_APP_BACKEND_URL=http://localhost:8001
+REACT_APP_BACKEND_URL=
 ```
+**Note:** Empty string allows frontend to use relative URLs to call backend on same domain
 
 ## Running the Application
 
