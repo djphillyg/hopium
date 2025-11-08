@@ -51,10 +51,6 @@ function App() {
       setError('Please enter your name');
       return;
     }
-    if (profile.goals.some(goal => !goal.trim())) {
-      setError('Please fill in all three goals');
-      return;
-    }
     if (!profile.biggest_anxiety.trim()) {
       setError('Please share your biggest anxiety');
       return;
@@ -161,10 +157,10 @@ function App() {
 
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-2">
-                  What are your current goals? (3 goals)
+                  What is one goal of yours?
                 </label>
                 <div className="space-y-3">
-                  {[0, 1, 2].map((index) => (
+                  {[0].map((index) => (
                     <input
                       key={index}
                       type="text"
